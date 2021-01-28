@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+}
+
+.post {
+  font-family: 'Segoe UI', sans-serif;
+  width: 400px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.account-line {
+  padding: 8px;
+}
+
+.account-line {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post img {
+  width: 350px;
+  height: 350px;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.icon {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.icon.heart:hover {
+  color: red;
+  transition: 5ms ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .post {
+    padding: 20px;
+    width: 250px;
+  }
+
+  .post img {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
