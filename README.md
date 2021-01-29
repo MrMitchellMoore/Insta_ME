@@ -1,4 +1,4 @@
-# Welcome to the social experiment
+# Welcome to Insta_ME the social experiment
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/10389750/106213023-ac56a600-6180-11eb-8f56-46ab23f42742.png)
 
